@@ -1,0 +1,44 @@
+<!Doctype HTML>
+<html>
+  <head>
+    <title>My First APP</title>
+
+      <!-- CSS Files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="./js/script.js" ></script>
+
+  </head>
+  <body>
+    <header>
+        <div class="jumbotron">
+          <h1> Welcome to javaScript Calculator</h1>
+        </div>
+    </header>
+    <div class="container">
+      <form class="formclass">
+        <label> Enter First Number: </label>
+        <input type="number" placeholder="Enter First Number" class="form-control" id="input1"/>
+        <br />
+        <label>Enter Second Number </label>
+        <input type="number" placeholder= "Enter Second Number"  class="form-control" id="input2"/>
+        <br />
+        <label>Addition: </label>
+        <input type="button"  id="add"  class="btn btn-primary" value="Add" onclick="addition()"/>
+        <label>Subustaction: </label>
+        <input type="button" id="sub"  class="btn btn-primary" value="Sub" onclick="subtraction()"/>
+        <label>Multiply: </label>
+        <input type="button" id="mul"  class="btn btn-primary" value="Mul" onclick="multiplication()"/>
+        <label>Divison: </label>
+        <input type="button" id="div" class="btn btn-primary" value="Div" onclick="division()"/>
+      </form>
+    </div>
+    <div class="alert alert-success" role="alert">
+       <h4> liWell done!</h4>
+    </div>
+    <footer>
+
+    </footer>
+    <!-- JS Files -->
+
+  </body>
+</html>
